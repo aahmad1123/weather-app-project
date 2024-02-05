@@ -45,7 +45,7 @@ function getApi(city){
             var forecastCard = document.createElement("div");
             forecastCard.setAttribute("class", "forecastCard")
             var foreCastTemp = document.createElement("p")
-            foreCastTemp.textContent = "Temp: " + data.list[i].main.temp
+            foreCastTemp.textContent = "Temp: " + data.list[i].main.temp + "F"
             var foreCastWind = document.createElement('p')
             foreCastWind.textContent = "Wind speed: " + data.list[i].wind.speed + "MPH"
             var forecastHumidity = document.createElement('p')

@@ -1,0 +1,35 @@
+.header{
+    background-color: blue;
+    text-align: center;
+    color:white;
+}
+
+#city-dashboard {
+    display: flex;
+    flex-direction: column;
+}
+#weather-display{
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    align-items: center;
+    /* width: 20%; */
+    
+}
+
+#forecast{
+    background-color:slateblue ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    
+}
+.forecastCard{
+    border-style: solid;
+    text-align: center;
+}
+
+.currentIcon{
+width:10%
+}
